@@ -23,7 +23,14 @@ Esc       # exit insert mode
 ```
 
 ### Visual Mode:
-
 ```
 v         # character-wise visual mode
 V         # line-wise visual mode
+```
+
+# Verb:
+```
+d         # delete something (delete)
+c         # delete something and enter insert mode (change)
+y         # copy something (yank)
+```
