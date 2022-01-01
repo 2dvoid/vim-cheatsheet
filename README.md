@@ -40,6 +40,7 @@ y         # copy something (yank)
 x         # delete character under cursor (delete)
 X         # delete character left of cursor (backspace)
 r         # replace character under cursor with another character (replace)
+R         # replace character under cursor with multiple characters
 ```
 
 
@@ -50,4 +51,18 @@ a         # around
 NUM       # number (e.g: 1,2,3)
 t         # searches for a character and stops before it (till)
 f         # searches for a character and lands on it (find)
+```
+
+## Noun:
+```
+h         # move to one character left
+j         # move to one row down
+k         # move to one row up
+l         # move to one character right
+w         # move to the beginning of the next word
+b         # move to the beginning of the previous word
+W         # move to the beginning of the next word after a white space
+B         # move to the beginning of the previous word before a white space
+e         # move to the end of the next word
+E         # move to the end of the word after whitespace
 ```
