@@ -2,6 +2,7 @@
 My personal cheat sheet for Vim
 
 ## Modes:
+
 ### Insert Mode:
 
 ```
@@ -16,3 +17,9 @@ s         # delete character under the cursor and enter insert mode (substitute)
 S         # delete current line and enter insert mode
 Esc       # exit insert mode
 ```
+
+### Visual Mode:
+
+```
+v         # character-wise visual mode
+V         # line-wise visual mode
