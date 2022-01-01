@@ -28,12 +28,20 @@ v         # character-wise visual mode
 V         # line-wise visual mode
 ```
 
-# Verb:
+## Verb:
+### Standard Verbs: (takes noun as arguments)
 ```
 d         # delete something (delete)
 c         # delete something and enter insert mode (change)
 y         # copy something (yank)
 ```
+### Single Character Verb: (takes no argument)
+```
+x         # delete character under cursor (delete)
+X         # delete character left of cursor (backspace)
+r         # replace character under cursor with another character (replace)
+```
+
 
 ## Modifier:
 ```
