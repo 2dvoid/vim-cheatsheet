@@ -43,6 +43,11 @@ y         # copy something (yank)
 ```
 ### Single Character Verb: (takes no argument)
 ```
+dd        # delete a line (delete)
+D         # delete to the end of the line
+yy        # copy a line (yank)
+p         # paste after cursor (paste)
+P         # paste before cursor
 x         # delete character under cursor (delete)
 X         # delete character left of cursor (backspace)
 r         # replace character under cursor with another character (replace)
@@ -71,4 +76,13 @@ W         # move to the beginning of the next word after a white space
 B         # move to the beginning of the previous word before a white space
 e         # move to the end of the next word
 E         # move to the end of the word after whitespace
+```
+
+## Search
+```
+/pattern       # search for pattern
+?pattern       # search backward for pattern
+n              # next search result
+N              # previous search result
+:noh           # remove highlighting of search matches
 ```
