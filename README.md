@@ -76,6 +76,11 @@ W         # move to the beginning of the next word after a white space
 B         # move to the beginning of the previous word before a white space
 e         # move to the end of the next word
 E         # move to the end of the word after whitespace
+0         # move to the start of the line
+$         # move to the end of the line
+gg        # move to the first line of the document
+G         # move to the last line of the document
+5G        # go to line 5
 ```
 
 ## Search
