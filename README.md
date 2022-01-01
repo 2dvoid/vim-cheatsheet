@@ -26,6 +26,11 @@ Esc       # exit insert mode
 ```
 v         # character-wise visual mode
 V         # line-wise visual mode
+aw        # mark a word
+ab        # a block with ()
+aB        # a block with {}
+ib        # inner block with ()
+iB        # inner block with {}
 ```
 
 ## Verb:
