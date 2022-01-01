@@ -1,8 +1,12 @@
 # Vim Cheat Sheet
 My personal cheat sheet for Vim
 
-## Modes:
+## Vim Language Structure:
+```
+Verb + Modifier + Noun
+```
 
+## Modes:
 ### Insert Mode:
 
 ```
