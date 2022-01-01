@@ -34,3 +34,12 @@ d         # delete something (delete)
 c         # delete something and enter insert mode (change)
 y         # copy something (yank)
 ```
+
+## Modifier:
+```
+i         # inside
+a         # around
+NUM       # number (e.g: 1,2,3)
+t         # searches for a character and stops before it (till)
+f         # searches for a character and lands on it (find)
+```
