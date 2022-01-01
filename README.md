@@ -4,6 +4,7 @@ My personal cheat sheet for Vim
 ## Vim Language Structure:
 ```
 Verb + Modifier + Noun
+Visual_Mode + Verb
 ```
 
 ## Modes:
