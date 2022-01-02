@@ -1,4 +1,4 @@
-# Vim Cheat Sheet
+# Vim Language Based Cheat Sheet
 My personal cheat sheet for Vim
 
 ## Vim Language Structure:
