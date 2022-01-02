@@ -35,25 +35,11 @@ iB        # inner block with {}
 ```
 
 ## Verb:
-### Standard Verbs: (takes noun as arguments)
 ```
 d         # delete something (delete)
 c         # delete something and enter insert mode (change)
 y         # copy something (yank)
 ```
-### Single Character Verb: (takes no argument)
-```
-dd        # delete a line (delete)
-D         # delete to the end of the line
-yy        # copy a line (yank)
-p         # paste after cursor (paste)
-P         # paste before cursor
-x         # delete character under cursor (delete)
-X         # delete character left of cursor (backspace)
-r         # replace character under cursor with another character (replace)
-R         # replace character under cursor with multiple characters
-```
-
 
 ## Modifier:
 ```
@@ -81,6 +67,19 @@ $         # move to the end of the line
 gg        # move to the first line of the document
 G         # move to the last line of the document
 5G        # go to line 5
+```
+
+## Command:
+```
+dd        # delete a line (delete)
+D         # delete to the end of the line from the cursor
+yy        # copy a line (yank)
+p         # paste after cursor (paste)
+P         # paste before cursor
+x         # delete character under cursor (delete)
+X         # delete character left of cursor (backspace)
+r         # replace character under cursor with another character (replace)
+R         # replace character under cursor with multiple characters
 ```
 
 ## Search
