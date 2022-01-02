@@ -64,10 +64,12 @@ e         # move to the end of the next word
 E         # move to the end of the word after whitespace
 0         # move to the start of the line
 $         # move to the end of the line
+}         # move to next paragraph
+{         # move to previous paragraph
 gg        # move to the first line of the document
 G         # move to the last line of the document
 5G        # go to line 5
-```
+````
 
 ## Command:
 ```
@@ -80,6 +82,7 @@ x         # delete character under cursor (delete)
 X         # delete character left of cursor (backspace)
 r         # replace character under cursor with another character (replace)
 R         # replace character under cursor with multiple characters
+J         # join line below to the current one
 u         # undo
 Ctrl + r  # redo
 ```
@@ -91,4 +94,13 @@ Ctrl + r  # redo
 n              # next search result
 N              # previous search result
 :noh           # remove highlighting of search matches
+```
+
+## Exit:
+```
+:w              # save the file, but don't exit (write)
+:w !sudo tee %  # save out the current file using sudo
+:wq or :x or ZZ # save and quit
+:q              # quit (fails if there are unsaved changes)
+:q! or ZQ       # quit and throw away unsaved changes
 ```
