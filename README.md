@@ -80,6 +80,8 @@ x         # delete character under cursor (delete)
 X         # delete character left of cursor (backspace)
 r         # replace character under cursor with another character (replace)
 R         # replace character under cursor with multiple characters
+u         # undo
+Ctrl + r  # redo
 ```
 
 ## Search
