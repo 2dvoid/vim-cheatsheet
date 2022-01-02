@@ -87,7 +87,7 @@ u         # undo
 Ctrl + r  # redo
 ```
 
-## Search
+## Search:
 ```
 /pattern       # search for pattern
 ?pattern       # search backward for pattern
