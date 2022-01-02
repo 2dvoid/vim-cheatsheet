@@ -17,7 +17,7 @@ a         # insert after the cursor (append)
 A         # insert at the end of the line
 o         # open a new line below the current line (open)
 O         # open a new line above the current line
-C         # delete rest of the line from the cursor and enter insert mode
+C         # delete rest of the line from the cursor position and enter insert mode
 s         # delete character under the cursor and enter insert mode (substitute)
 S         # delete current line and enter insert mode
 Esc       # exit insert mode
@@ -46,8 +46,10 @@ y         # copy something (yank)
 i         # inside
 a         # around
 NUM       # number (e.g: 1,2,3)
-t         # searches for a character and stops before it (till)
-f         # searches for a character and lands on it (find)
+t         # searches for a character forward and stops before it (till)
+T         # searches for a character backward and stops before it
+f         # searches for a character forward and lands on it (find)
+F         # searches for a character backward and lands on it  
 ```
 
 ## Noun:
@@ -64,11 +66,19 @@ e         # move to the end of the next word
 E         # move to the end of the word after whitespace
 0         # move to the start of the line
 $         # move to the end of the line
+)         # move to next sentence
+(         # move to previous sentence
 }         # move to next paragraph
 {         # move to previous paragraph
+%         # move to the matching parenthesis
+M         # move to the middle of the screen
+L         # move to the bottom of the screen
 gg        # move to the first line of the document
 G         # move to the last line of the document
 5G        # go to line 5
+Ctrl + b  # page up
+Ctrl + f  # page down
+
 ````
 
 ## Command:
