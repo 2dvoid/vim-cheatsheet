@@ -53,7 +53,8 @@ NUM       # number (e.g: 1,2,3)
 t         # searches for a character forward and stops before it (till)
 T         # searches for a character backward and stops before it
 f         # searches for a character forward and lands on it (find)
-F         # searches for a character backward and lands on it  
+F         # searches for a character backward and lands on it
+/         # search upto the next match
 ```
 
 ## Noun:
