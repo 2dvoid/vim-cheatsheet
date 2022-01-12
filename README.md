@@ -7,9 +7,7 @@ Verb + Modifier + Noun
 Visual_Mode + Verb
 ```
 
-## Modes:
-### Insert Mode:
-
+## Insert Mode:
 ```
 i         # insert before the cursor (insert)
 I         # insert at the beginning of the line
@@ -23,23 +21,28 @@ S         # delete current line and enter insert mode
 Esc       # exit insert mode
 ```
 
-### Visual Mode:
-```
-v         # character-wise visual mode
-V         # line-wise visual mode
-aw        # mark a word
-ab        # a block with ()
-aB        # a block with {}
-ib        # inner block with ()
-iB        # inner block with {}
-```
-
 ## Verb:
+### Standard Verbs:
 ```
 d         # delete something (delete)
 y         # copy something (yank)
 c         # delete something and enter insert mode (change)
 v         # visually select (visual)
+```
+### Single character verbs:
+```
+dd        # delete a line (delete)
+D         # delete to the end of the line from the cursor
+yy        # copy a line (yank)
+p         # paste after cursor (paste)
+P         # paste before cursor
+x         # delete character under cursor (delete)
+X         # delete character left of cursor (backspace)
+r         # replace character under cursor with another character (replace)
+R         # replace character under cursor with multiple characters
+J         # join line below to the current one
+u         # undo
+Ctrl + r  # redo
 ```
 
 ## Modifier:
@@ -92,22 +95,6 @@ t         # HTML tag block
 ]         # bracketed block
 >         # single tag
 
-```
-
-## Command:
-```
-dd        # delete a line (delete)
-D         # delete to the end of the line from the cursor
-yy        # copy a line (yank)
-p         # paste after cursor (paste)
-P         # paste before cursor
-x         # delete character under cursor (delete)
-X         # delete character left of cursor (backspace)
-r         # replace character under cursor with another character (replace)
-R         # replace character under cursor with multiple characters
-J         # join line below to the current one
-u         # undo
-Ctrl + r  # redo
 ```
 
 ## Search:
