@@ -37,8 +37,9 @@ iB        # inner block with {}
 ## Verb:
 ```
 d         # delete something (delete)
-c         # delete something and enter insert mode (change)
 y         # copy something (yank)
+c         # delete something and enter insert mode (change)
+v         # Visually Select (visual)
 ```
 
 ## Modifier:
