@@ -22,14 +22,14 @@ Esc       # exit insert mode
 ```
 
 ## Verb:
-### Standard Verbs:
+- **Standard Verbs:**
 ```
 d         # delete something (delete)
 y         # copy something (yank)
 c         # delete something and enter insert mode (change)
 v         # visually select (visual)
 ```
-### Single character verbs:
+- **Single Character Verbs:**
 ```
 dd        # delete a line (delete)
 D         # delete to the end of the line from the cursor
@@ -57,7 +57,7 @@ F         # searches for a character backward and lands on it
 ```
 
 ## Noun:
-### Motions:
+- **Motions:**
 ```
 h         # move to one character left
 j         # move to one row down
@@ -81,7 +81,7 @@ L         # move to the bottom of the screen
 gg        # move to the first line of the document
 G         # move to the last line of the document
 ````
-### Text Objects:
+- **Text Objects:**
 ```
 w         # word
 s         # sentence
