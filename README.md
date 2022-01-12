@@ -115,3 +115,6 @@ N              # previous search result
 :q              # quit (fails if there are unsaved changes)
 :q! or ZQ       # quit and throw away unsaved changes
 ```
+
+## Tips:
+- **Difference between <code>dw</code> and <code>daw</code>:** The difference is in the allowed cursor position. For example, to delete a word using dw the cursor must be at the start of the word, any other position would delete only part of the word; however, daw allows the cursor to be at any position in the word.
