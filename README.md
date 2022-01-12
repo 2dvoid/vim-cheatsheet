@@ -87,9 +87,9 @@ p         # paragraph
 '         # single quoted string
 `         # back quoted string
 t         # HTML tag block
-)         # parenthesized block
+) or b    # parenthesized block
+} or B    # brace block
 ]         # bracketed block
-}         # brace block
 >         # single tag
 
 ```
