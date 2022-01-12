@@ -39,7 +39,7 @@ iB        # inner block with {}
 d         # delete something (delete)
 y         # copy something (yank)
 c         # delete something and enter insert mode (change)
-v         # Visually Select (visual)
+v         # visually select (visual)
 ```
 
 ## Modifier:
