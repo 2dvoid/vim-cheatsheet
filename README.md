@@ -54,6 +54,7 @@ F         # searches for a character backward and lands on it
 ```
 
 ## Noun:
+### Motions:
 ```
 h         # move to one character left
 j         # move to one row down
@@ -76,11 +77,22 @@ M         # move to the middle of the screen
 L         # move to the bottom of the screen
 gg        # move to the first line of the document
 G         # move to the last line of the document
-5G        # go to line 5
-Ctrl + b  # page up
-Ctrl + f  # page down
-
 ````
+### Text Objects:
+```
+w         # word
+s         # sentence
+p         # paragraph
+"         # double quoted string
+'         # single quoted string
+`         # back quoted string
+t         # HTML tag block
+)         # parenthesized block
+]         # bracketed block
+}         # brace block
+>         # single tag
+
+```
 
 ## Command:
 ```
