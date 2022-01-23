@@ -99,6 +99,9 @@ t         # HTML tag block
 
 ## Scrolling:
 ```
+zz             # scroll the screen so the cursor is at the middle
+zb             # scroll the screen so the cursor is at the bottom
+zt             # scroll the screen so the cursor is at the top
 Ctrl + b       # move back one full screen
 Ctrl + f       # move forward one full screen
 Ctrl + d       # move forward 1/2 a screen
