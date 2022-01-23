@@ -99,6 +99,9 @@ t         # HTML tag block
 
 ## Scrolling:
 ```
+H              # move cursor to top of the screen (High)
+M              # move cursor to middle of the screen (Middle)
+L              # move cursor to bottom of the screen (Low)
 zz             # scroll the screen so the cursor is at the middle
 zb             # scroll the screen so the cursor is at the bottom
 zt             # scroll the screen so the cursor is at the top
