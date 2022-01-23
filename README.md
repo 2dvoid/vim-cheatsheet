@@ -97,6 +97,16 @@ t         # HTML tag block
 
 ```
 
+## Scrolling:
+```
+Ctrl + b       # move back one full screen
+Ctrl + f       # move forward one full screen
+Ctrl + d       # move forward 1/2 a screen
+Ctrl + u       # move back 1/2 a screen
+Ctrl + e       # scroll the screen up
+Ctrl + y       # scroll the screen down
+```
+
 ## Search:
 ```
 /pattern       # search for pattern
