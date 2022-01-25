@@ -76,8 +76,9 @@ $         # move to the end of the line
 }         # move to next paragraph
 {         # move to previous paragraph
 %         # move to the matching parenthesis
-M         # move to the middle of the screen
-L         # move to the bottom of the screen
+H         # move cursor to top of the screen (High)
+M         # move cursor to middle of the screen (Middle)
+L         # move cursor to bottom of the screen (Low)
 gg        # move to the first line of the document
 G         # move to the last line of the document
 ````
@@ -99,9 +100,6 @@ t         # HTML tag block
 
 ## Scrolling:
 ```
-H              # move cursor to top of the screen (High)
-M              # move cursor to middle of the screen (Middle)
-L              # move cursor to bottom of the screen (Low)
 zz             # scroll the screen so the cursor is at the middle
 zb             # scroll the screen so the cursor is at the bottom
 zt             # scroll the screen so the cursor is at the top
